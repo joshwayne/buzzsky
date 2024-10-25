@@ -4,12 +4,11 @@ Get the most talked about links from your Bluesky feed.
 
 ## Developing
 
-Install dependencies with `pnpm install` (or `npm install` or `yarn`), start a development server:
+1. Install dependencies with `pnpm install` (or `npm install` or `yarn`)
+2. Duplicate a `.env.example` file to `.env` and fill in the Bluesky credentials. You can get an app password [here](https://bsky.social/settings/app-passwords).
+3. Start a development server:
 
 ```bash
-pnpm run dev
-
-# or start the server and open the app in a new browser tab
 pnpm dev --open
 ```
 
